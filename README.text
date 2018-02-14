@@ -1,0 +1,20 @@
+I have uploaded text file containing link to GitHub where I have uploaded my project.
+
+I have created my framework using below:
+
+Selenium - 2.53.1, IDE:  IntelliJ, Language - Java, Tools - Maven Build, TestNg, 
+
+It is a page object model.
+In src/main/java there is Voltech directory in which:
+
+There is a BasePage wheere Webdrive declared. Utisl where all reusable methods there. For browser selection there is class called BrowserSelector, Data is coming from excel which is located in test/Resources/Properties/TesDataConfig.xlsx,  In LoadProp class excel file loading configuration is there.
+
+In src/test/java there is a Voltech directory in which
+
+There is a Bese Test in which I have created all object of pages, BeforeMethod to openBrowser and AfterMethod to close browser and take screenshot if test fails.
+
+In TestSuite all the test are writen. Run this class and all test will be executed.
+
+Extent reports will be generated at the end of the test in target/Reports directory.
+
+Screenshots are saved under target/Screenshots
